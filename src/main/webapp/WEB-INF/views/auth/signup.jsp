@@ -63,13 +63,13 @@ FACEBOOK: https://www.facebook.com/themefisher
           <h2 class="text-center">Create Your Account</h2>
           <form class="text-left clearfix" action="/auth/signup" method="post">
             <div class="form-group">
-              <input name="firstName" type="text" class="form-control"  placeholder="First Name" required="required">
+              <input name="firstName" type="text" class="form-control"  placeholder="First Name">
             </div>
             <div class="form-group">
               <input name="lastName" type="text" class="form-control"  placeholder="Last Name" required="required">
             </div>
             <div class="form-group">
-              <input name="userName" type="text" class="form-control"  placeholder="Username" required="required">
+              <input name="userName" type="text" class="form-control"  placeholder="Username" required="required" maxlength="30">
             </div>
             <div class="form-group">
               <input name="email" type="email" class="form-control"  placeholder="Email" required="required">
