@@ -1,4 +1,4 @@
-package com.yeon.ho.used.web;
+package com.yeon.ho.used.web.controller;
 
 import com.yeon.ho.used.handler.exception.CustomValidationException;
 import com.yeon.ho.used.service.AuthService;
@@ -19,6 +19,11 @@ import java.util.Map;
 public class AuthController {
 
     private final AuthService authService;
+
+//    @GetMapping("/")
+//    public String testIndex() {
+//        return "index2";
+//    }
 
     @GetMapping("/auth/login")
     public String loginForm() {

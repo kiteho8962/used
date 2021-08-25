@@ -57,16 +57,16 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="block text-center">
-          <a class="logo" href="../index.jsp">
+          <a class="logo" href="../pages/index.jsp">
             <img src="/images/logo.png" alt="">
           </a>
           <h2 class="text-center">Welcome Back</h2>
           <form class="text-left clearfix" action="/auth/login" method="post">
             <div class="form-group">
-              <input type="email" class="form-control"  placeholder="Email">
+              <input name="username" type="email" class="form-control"  placeholder="Email">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control" placeholder="Password">
+              <input name="password" type="password" class="form-control" placeholder="Password">
             </div>
             <div class="text-center">
               <button class="btn btn-main text-center" >Login</button>

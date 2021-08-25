@@ -57,7 +57,7 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="block text-center">
-          <a class="logo" href="../index.jsp">
+          <a class="logo" href="../pages/index.jsp">
             <img src="/images/logo.png" alt="">
           </a>
           <h2 class="text-center">Create Your Account</h2>

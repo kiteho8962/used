@@ -11,7 +11,8 @@ WEBSITE: https://themefisher.com
 TWITTER: https://twitter.com/themefisher
 FACEBOOK: https://www.facebook.com/themefisher
 -->
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+		 pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -63,7 +64,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 			<div class="col-md-4 col-xs-12 col-sm-4">
 				<!-- Site Logo -->
 				<div class="logo text-center">
-					<a href="index.jsp">
+					<a href="pages/index.jsp">
 						<!-- replace logo here -->
 						<svg width="135px" height="29px" viewBox="0 0 155 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
 							xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -179,7 +180,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 
 					<!-- Home -->
 					<li class="dropdown ">
-						<a href="index.jsp">Home</a>
+						<a href="pages/index.jsp">Home</a>
 					</li><!-- / Home -->
 
 
@@ -248,9 +249,9 @@ FACEBOOK: https://www.facebook.com/themefisher
 										<li class="dropdown-header">Dashboard</li>
 										<li role="separator" class="divider"></li>
 										<li><a href="dashboard.html">User Interface</a></li>
-										<li><a href="order.html">Orders</a></li>
+										<li><a href="order.jsp">Orders</a></li>
 										<li><a href="address.html">Address</a></li>
-										<li><a href="profile-details.html">Profile Details</a></li>
+										<li><a href="pages/profile-details.jsp">Profile Details</a></li>
 									</ul>
 								</div>
 
@@ -316,7 +317,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 				<div class="content">
 					<h1 class="page-name">Dashboard</h1>
 					<ol class="breadcrumb">
-						<li><a href="index.jsp">Home</a></li>
+						<li><a href="pages/index.jsp">Home</a></li>
 						<li class="active">my account</li>
 					</ol>
 				</div>
@@ -330,9 +331,9 @@ FACEBOOK: https://www.facebook.com/themefisher
 			<div class="col-md-12">
 				<ul class="list-inline dashboard-menu text-center">
 					<li><a href="dashboard.html">Dashboard</a></li>
-					<li><a class="active" href="order.html">Orders</a></li>
+					<li><a class="active" href="order.jsp">Orders</a></li>
 					<li><a href="address.html">Address</a></li>
-					<li><a href="profile-details.html">Profile Details</a></li>
+					<li><a href="pages/profile-details.jsp">Profile Details</a></li>
 				</ul>
 				<div class="dashboard-wrapper user-dashboard">
 					<div class="table-responsive">
@@ -354,7 +355,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 									<td>2</td>
 									<td>$99.00</td>
 									<td><span class="label label-primary">Processing</span></td>
-									<td><a href="order.html" class="btn btn-default">View</a></td>
+									<td><a href="order.jsp" class="btn btn-default">View</a></td>
 								</tr>
 								<tr>
 									<td>#451231</td>
@@ -362,7 +363,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 									<td>3</td>
 									<td>$150.00</td>
 									<td><span class="label label-success">Completed</span></td>
-									<td><a href="order.html" class="btn btn-default">View</a></td>
+									<td><a href="order.jsp" class="btn btn-default">View</a></td>
 								</tr>
 								<tr>
 									<td>#451231</td>
@@ -370,7 +371,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 									<td>3</td>
 									<td>$150.00</td>
 									<td><span class="label label-danger">Canceled</span></td>
-									<td><a href="order.html" class="btn btn-default">View</a></td>
+									<td><a href="order.jsp" class="btn btn-default">View</a></td>
 								</tr>
 								<tr>
 									<td>#451231</td>
@@ -378,7 +379,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 									<td>2</td>
 									<td>$99.00</td>
 									<td><span class="label label-info">On Hold</span></td>
-									<td><a href="order.html" class="btn btn-default">View</a></td>
+									<td><a href="order.jsp" class="btn btn-default">View</a></td>
 								</tr>
 								<tr>
 									<td>#451231</td>
@@ -386,7 +387,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 									<td>3</td>
 									<td>$150.00</td>
 									<td><span class="label label-warning">Pending</span></td>
-									<td><a href="order.html" class="btn btn-default">View</a></td>
+									<td><a href="order.jsp" class="btn btn-default">View</a></td>
 								</tr>
 							</tbody>
 						</table>
