@@ -16,4 +16,39 @@ public class PagesController {
         return "pages/profile-details";
     }
 
+    @GetMapping("/pages/shop")
+    public String shopPage() {
+        return "pages/shop";
+    }
+
+    @GetMapping("/pages/checkout")
+    public String checkoutPage() {
+        return "pages/checkout";
+    }
+
+    @GetMapping("/pages/cart")
+    public String cartPage() {
+        return "pages/cart";
+    }
+
+    @GetMapping("/pages/pricing")
+    public String pricingPage() {
+        return "pages/pricing";
+    }
+
+    @GetMapping("/pages/confirmation")
+    public String confirmationPage() {
+        return "pages/confirmation";
+    }
+
+    @GetMapping("/pages/product-single")
+    public String productSinglePage() {
+        return "pages/product-single";
+    }
+
+    @GetMapping("/pages/shop-sidebar")
+    public String shopSideBarPage() {
+        return "pages/shop-sidebar";
+    }
+
 }

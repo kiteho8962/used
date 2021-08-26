@@ -123,8 +123,8 @@ FACEBOOK: https://www.facebook.com/themefisher
 								<span class="total-price">$1799.00</span>
 							</div>
 							<ul class="text-center cart-buttons">
-								<li><a href="cart.html" class="btn btn-small">View Cart</a></li>
-								<li><a href="checkout.html" class="btn btn-small btn-solid-border">Checkout</a></li>
+								<li><a href="pages/cart.jsp" class="btn btn-small">View Cart</a></li>
+								<li><a href="pages/checkout.jsp" class="btn btn-small btn-solid-border">Checkout</a></li>
 							</ul>
 						</div>
 
@@ -197,11 +197,11 @@ FACEBOOK: https://www.facebook.com/themefisher
 									<ul>
 										<li class="dropdown-header">Pages</li>
 										<li role="separator" class="divider"></li>
-										<li><a href="shop.html">Shop</a></li>
-										<li><a href="checkout.html">Checkout</a></li>
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="pricing.html">Pricing</a></li>
-										<li><a href="confirmation.html">Confirmation</a></li>
+										<li><a href="pages/shop.jsp">Shop</a></li>
+										<li><a href="pages/checkout.jsp">Checkout</a></li>
+										<li><a href="pages/cart.jsp">Cart</a></li>
+										<li><a href="pages/pricing.jsp">Pricing</a></li>
+										<li><a href="pages/confirmation.jsp">Confirmation</a></li>
 
 									</ul>
 								</div>
@@ -211,8 +211,8 @@ FACEBOOK: https://www.facebook.com/themefisher
 									<ul>
 										<li class="dropdown-header">Layout</li>
 										<li role="separator" class="divider"></li>
-										<li><a href="product-single.html">Product Details</a></li>
-										<li><a href="shop-sidebar.html">Shop With Sidebar</a></li>
+										<li><a href="pages/product-single.jsp">Product Details</a></li>
+										<li><a href="pages/shop-sidebar.jsp">Shop With Sidebar</a></li>
 
 									</ul>
 								</div>
@@ -237,7 +237,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 										<li role="separator" class="divider"></li>
 										<li><a href="contact.html">Contact Us</a></li>
 										<li><a href="about.html">About Us</a></li>
-										<li><a href="404.html">404 Page</a></li>
+										<li><a href="../../../resources/error/404.jsp">404 Page</a></li>
 										<li><a href="coming-soon.html">Coming Soon</a></li>
 										<li><a href="faq.html">FAQ</a></li>
 									</ul>
@@ -268,7 +268,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 
 								<!-- Mega Menu -->
 								<div class="col-sm-3 col-xs-12">
-									<a href="shop.html">
+									<a href="pages/shop.jsp">
 										<img class="img-responsive" src="images/shop/header-img.jpg" alt="menu image" />
 									</a>
 								</div>
@@ -428,10 +428,10 @@ FACEBOOK: https://www.facebook.com/themefisher
 						<a href="contact.html">CONTACT</a>
 					</li>
 					<li>
-						<a href="shop.html">SHOP</a>
+						<a href="pages/shop.jsp">SHOP</a>
 					</li>
 					<li>
-						<a href="pricing.html">Pricing</a>
+						<a href="pages/pricing.jsp">Pricing</a>
 					</li>
 					<li>
 						<a href="contact.html">PRIVACY POLICY</a>

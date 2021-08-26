@@ -166,7 +166,7 @@
 
                     <!-- Home -->
                     <li class="dropdown ">
-                        <a href="index.jsp">Home</a>
+                        <a href="/">Home</a>
                     </li><!-- / Home -->
 
 
@@ -183,11 +183,11 @@
                                     <ul>
                                         <li class="dropdown-header">Pages</li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="../shop.html">Shop</a></li>
-                                        <li><a href="../checkout.html">Checkout</a></li>
-                                        <li><a href="../cart.html">Cart</a></li>
-                                        <li><a href="../pricing.html">Pricing</a></li>
-                                        <li><a href="../confirmation.html">Confirmation</a></li>
+                                        <li><a href="/pages/shop">Shop</a></li>
+                                        <li><a href="/pages/checkout">Checkout</a></li>
+                                        <li><a href="/pages/cart">Cart</a></li>
+                                        <li><a href="/pages/pricing">Pricing</a></li>
+                                        <li><a href="/pages/confirmation">Confirmation</a></li>
 
                                     </ul>
                                 </div>
@@ -197,8 +197,8 @@
                                     <ul>
                                         <li class="dropdown-header">Layout</li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="../product-single.html">Product Details</a></li>
-                                        <li><a href="../shop-sidebar.html">Shop With Sidebar</a></li>
+                                        <li><a href="/pages/product-single">Product Details</a></li>
+                                        <li><a href="/pages/shop-sidebar">Shop With Sidebar</a></li>
 
                                     </ul>
                                 </div>
@@ -223,7 +223,7 @@
                                         <li role="separator" class="divider"></li>
                                         <li><a href="../contact.html">Contact Us</a></li>
                                         <li><a href="../about.html">About Us</a></li>
-                                        <li><a href="../404.html">404 Page</a></li>
+                                        <li><a href="../../../../resources/error/404.jsp">404 Page</a></li>
                                         <li><a href="../coming-soon.html">Coming Soon</a></li>
                                         <li><a href="../faq.html">FAQ</a></li>
                                     </ul>
@@ -254,15 +254,13 @@
 
                                 <!-- Mega Menu -->
                                 <div class="col-sm-3 col-xs-12">
-                                    <a href="../shop.html">
+                                    <a href="../pages/shop.jsp">
                                         <img class="img-responsive" src="/images/shop/header-img.jpg" alt="menu image" />
                                     </a>
                                 </div>
                             </div><!-- / .row -->
                         </div><!-- / .dropdown-menu -->
                     </li><!-- / Pages -->
-
-
 
                     <!-- Blog -->
                     <li class="dropdown dropdown-slide">
