@@ -72,7 +72,7 @@
                     </tr>
                   </tbody>
                 </table>
-                <a href="checkout.jsp" class="btn btn-main pull-right">Checkout</a>
+                <a href="/pages/checkout" class="btn btn-main pull-right">Checkout</a>
               </form>
             </div>
           </div>

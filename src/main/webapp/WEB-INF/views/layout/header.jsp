@@ -111,8 +111,8 @@
                                 <span class="total-price">$1799.00</span>
                             </div>
                             <ul class="text-center cart-buttons">
-                                <li><a href="/cart.html" class="btn btn-small">View Cart</a></li>
-                                <li><a href="/checkout.html" class="btn btn-small btn-solid-border">Checkout</a></li>
+                                <li><a href="/pages/cart" class="btn btn-small">View Cart</a></li>
+                                <li><a href="/pages/checkout" class="btn btn-small btn-solid-border">Checkout</a></li>
                             </ul>
                         </div>
 
@@ -221,11 +221,11 @@
                                     <ul>
                                         <li class="dropdown-header">Introduction</li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="../contact.html">Contact Us</a></li>
-                                        <li><a href="../about.html">About Us</a></li>
+                                        <li><a href="/pages/contact">Contact Us</a></li>
+                                        <li><a href="/pages/about">About Us</a></li>
                                         <li><a href="../../../../resources/error/404.jsp">404 Page</a></li>
-                                        <li><a href="../coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="../faq.html">FAQ</a></li>
+                                        <li><a href="/pages/coming-soon">Coming Soon</a></li>
+                                        <li><a href="/pages/faq">FAQ</a></li>
                                     </ul>
                                 </div>
 
@@ -234,21 +234,10 @@
                                     <ul>
                                         <li class="dropdown-header">Dashboard</li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="../dashboard.html">User Interface</a></li>
-                                        <li><a href="../order.jsp">Orders</a></li>
-                                        <li><a href="../address.html">Address</a></li>
+                                        <li><a href="/pages/dashboard">User Interface</a></li>
+                                        <li><a href="/pages/order">Orders</a></li>
+                                        <li><a href="/pages/address">Address</a></li>
                                         <li><a href="../pages/profile-details">Profile Details</a></li>
-                                    </ul>
-                                </div>
-
-                                <!-- Utility -->
-                                <div class="col-sm-3 col-xs-12">
-                                    <ul>
-                                        <li class="dropdown-header">Utility</li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="auth/login">Login Page</a></li>
-                                        <li><a href="../auth/signup.jsp">Signin Page</a></li>
-                                        <li><a href="../forget-password.html">Forget Password</a></li>
                                     </ul>
                                 </div>
 
@@ -262,31 +251,6 @@
                         </div><!-- / .dropdown-menu -->
                     </li><!-- / Pages -->
 
-                    <!-- Blog -->
-                    <li class="dropdown dropdown-slide">
-                        <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
-                           role="button" aria-haspopup="true" aria-expanded="false">Blog <span
-                                class="tf-ion-ios-arrow-down"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="../blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                            <li><a href="../blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                            <li><a href="../blog-full-width.html">Blog Full Width</a></li>
-                            <li><a href="../blog-grid.html">Blog 2 Columns</a></li>
-                            <li><a href="../blog-single.html">Blog Single</a></li>
-                        </ul>
-                    </li><!-- / Blog -->
-
-                    <!-- Shop -->
-                    <li class="dropdown dropdown-slide">
-                        <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
-                           role="button" aria-haspopup="true" aria-expanded="false">Elements <span
-                                class="tf-ion-ios-arrow-down"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="../typography.html">Typography</a></li>
-                            <li><a href="../buttons.html">Buttons</a></li>
-                            <li><a href="../alerts.html">Alerts</a></li>
-                        </ul>
-                    </li><!-- / Blog -->
                 </ul><!-- / .nav .navbar-nav -->
 
             </div>

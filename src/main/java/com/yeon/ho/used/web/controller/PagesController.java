@@ -51,4 +51,40 @@ public class PagesController {
         return "pages/shop-sidebar";
     }
 
+    @GetMapping("/pages/contact")
+    public String contactPage() {
+        return "pages/contact";
+    }
+
+    @GetMapping("/pages/about")
+    public String aboutPage() {
+        return "pages/about";
+    }
+
+    @GetMapping("/pages/coming-soon")
+    public String commingSoonPage() {
+        return "pages/coming-soon";
+    }
+
+    @GetMapping("/pages/faq")
+    public String faqPage() {
+        return "pages/faq";
+    }
+
+    @GetMapping("/pages/dashboard")
+    public String dashboardPage() {
+        return "pages/dashboard";
+    }
+
+    @GetMapping("/pages/order")
+    public String orderPage() {
+        return "pages/order";
+    }
+
+    @GetMapping("/pages/address")
+    public String addredssPage() {
+        return "pages/address";
+    }
+
+
 }

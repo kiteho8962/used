@@ -8,9 +8,9 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="content">
-					<h1 class="page-name">Dashboard</h1>
+					<h1 class="page-name">ProfileDetails</h1>
 					<ol class="breadcrumb">
-						<li><a href="index.jsp">Home</a></li>
+						<li><a href="/">Home</a></li>
 						<li class="active">my account</li>
 					</ol>
 				</div>
@@ -23,9 +23,9 @@
     <div class="row">
       <div class="col-md-12">
         <ul class="list-inline dashboard-menu text-center">
-          <li><a href="../dashboard.html">Dashboard</a></li>
-          <li><a href="../order.jsp">Orders</a></li>
-          <li><a href="../address.html">Address</a></li>
+          <li><a href="/pages/dashboard">Dashboard</a></li>
+          <li><a href="/pages/order">Orders</a></li>
+          <li><a href="/pages/address">Address</a></li>
           <li><a class="active"  href="/pages/profile-details">Profile Details</a></li>
         </ul>
         <div class="dashboard-wrapper dashboard-user-profile">
