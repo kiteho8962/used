@@ -24,7 +24,7 @@
           <li><a href="/pages/dashboard">Dashboard</a></li>
           <li><a href="/pages/order">Orders</a></li>
           <li><a class="active" href="/pages/address">Address</a></li>
-          <li><a href="/pages/profile-details">Profile Details</a></li>
+          <li><a href="/user/${principal.user.id}/profile-details">Profile Details</a></li>
         </ul>
         <div class="dashboard-wrapper user-dashboard">
           <div class="table-responsive">

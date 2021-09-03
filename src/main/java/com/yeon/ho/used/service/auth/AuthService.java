@@ -1,4 +1,4 @@
-package com.yeon.ho.used.service;
+package com.yeon.ho.used.service.auth;
 
 import com.yeon.ho.used.domain.user.User;
 import com.yeon.ho.used.web.dto.auth.SignUpDTO;
@@ -11,10 +11,10 @@ public interface AuthService {
 
     default User SignUpDTOToEntity(SignUpDTO signUpDTO) {
         return User.builder()
-                .firstName(signUpDTO.getFirstName())
-                .lastName(signUpDTO.getLastName())
                 .userName(signUpDTO.getUserName())
                 .email(signUpDTO.getEmail())
+                .address(signUpDTO.getAddress())
+                .phone(signUpDTO.getPhone())
                 .password(signUpDTO.getPassword())
                 .build();
     }

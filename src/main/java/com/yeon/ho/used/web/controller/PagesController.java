@@ -51,9 +51,9 @@ public class PagesController {
         return "pages/shop-sidebar";
     }
 
-    @GetMapping("/pages/contact")
+    @GetMapping("/pages/regist")
     public String contactPage() {
-        return "pages/contact";
+        return "pages/regist";
     }
 
     @GetMapping("/pages/about")

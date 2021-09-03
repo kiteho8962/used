@@ -37,4 +37,4 @@ spring:
       password: 1234
 
 file:
-  path: C:\workspaces\springbootwork\upload
+  path: C:\workspaces\springbootwork\upload\

@@ -1,5 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<sec:authorize access="isAuthenticated()">
+    <sec:authentication property="principal" var="principal"/>
+</sec:authorize>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +10,7 @@
 
     <!-- Basic Page Needs
     ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Aviato | E-commerce template</title>
 
     <!-- Mobile Specific Metas
@@ -46,7 +49,7 @@
             <div class="col-md-4 col-xs-12 col-sm-4">
                 <div class="contact-number">
                     <i class="tf-ion-ios-telephone"></i>
-                    <span>0129- 12323-123123</span>
+                    <span>010-2578-8962</span>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12 col-sm-4">
@@ -60,7 +63,7 @@
                                font-family="AustinBold, Austin" font-weight="bold">
                                 <g id="Group" transform="translate(-108.000000, -297.000000)" fill="#000000">
                                     <text id="AVIATO">
-                                        <tspan x="108.94" y="325">AVIATO</tspan>
+                                        <tspan x="108.94" y="325">USED</tspan>
                                     </text>
                                 </g>
                             </g>
@@ -221,7 +224,7 @@
                                     <ul>
                                         <li class="dropdown-header">Introduction</li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="/pages/contact">Contact Us</a></li>
+                                        <li><a href="/pages/regist">Product Regist</a></li>
                                         <li><a href="/pages/about">About Us</a></li>
                                         <li><a href="../../../../resources/error/404.jsp">404 Page</a></li>
                                         <li><a href="/pages/coming-soon">Coming Soon</a></li>
@@ -237,7 +240,8 @@
                                         <li><a href="/pages/dashboard">User Interface</a></li>
                                         <li><a href="/pages/order">Orders</a></li>
                                         <li><a href="/pages/address">Address</a></li>
-                                        <li><a href="../pages/profile-details">Profile Details</a></li>
+                                        <li><a href="/user/${principal.user.id}/profile-details">Profile Details</a></li>
+                                        <li><a href="/logout">LogOut</a></li>
                                     </ul>
                                 </div>
 

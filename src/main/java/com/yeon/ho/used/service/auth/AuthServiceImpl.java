@@ -1,4 +1,4 @@
-package com.yeon.ho.used.service;
+package com.yeon.ho.used.service.auth;
 
 import com.yeon.ho.used.domain.user.User;
 import com.yeon.ho.used.domain.user.UserRepository;

@@ -68,6 +68,12 @@
             <version>9.0.43</version>
         </dependency>
 
+        <!-- 시큐리티 태그 라이브러리 -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-taglibs</artifactId>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
