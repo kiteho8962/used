@@ -37,10 +37,10 @@
 							<input type="text" placeholder="가격" class="form-control" name="price" id="subject">
 						</div>
 
-						<div class="form-group">
+						<div id="imageBigWrapper" class="form-group">
 							<input type="file" name="file" onchange="imageChoose(this)">
-							<div>
-								<img src="/images/person.jpeg" alt="" id="imageUploadPreview" />
+							<div class="imageWrapper">
+								<img src="" alt="" id="imageUploadPreview" style="width: 55%; margin-top: 2%;"/>
 							</div>
 						</div>
 						
