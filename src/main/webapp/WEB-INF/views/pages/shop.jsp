@@ -307,4 +307,5 @@ FACEBOOK: https://www.facebook.com/themefisher
 	</div>
 </section>
 
+<script src="/js/shop.js" ></script>
 <%@ include file="../layout/footer.jsp"%>

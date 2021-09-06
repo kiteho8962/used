@@ -7,6 +7,8 @@ import com.yeon.ho.used.web.dto.image.ImageUploadDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.nio.file.Files;
@@ -39,5 +41,12 @@ public class ImageServiceImpl implements ImageService{
         // DB에 저장
         Image image = ImageUploadDTOToEntity(imageUploadDTO, principalDetails.getUser(), imageFileName);
         imageRepository.save(image);
+    }
+
+    @Override
+    public Image getImages(Pageable pageable) {
+        Page<Image> images = imageRepository.findAll(pageable);
+
+        return (Image) images;
     }
 }
