@@ -1,6 +1,7 @@
 package com.yeon.ho.used.domain.user;
 
 import lombok.*;
+import net.minidev.json.annotate.JsonIgnore;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

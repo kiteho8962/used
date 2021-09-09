@@ -4,13 +4,14 @@ import com.yeon.ho.used.config.auth.PrincipalDetails;
 import com.yeon.ho.used.domain.image.Image;
 import com.yeon.ho.used.domain.user.User;
 import com.yeon.ho.used.web.dto.image.ImageUploadDTO;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 public interface ImageService {
 
     void imageUpload(ImageUploadDTO imageUploadDTO, PrincipalDetails principalDetails);
 
-    Image getImages(Pageable pageable);
+    Page<Image> getImages(Pageable pageable);
 
     default Image ImageUploadDTOToEntity(ImageUploadDTO imageUploadDTO, User user, String imageUrl) {
         return Image.builder()

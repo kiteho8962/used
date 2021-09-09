@@ -1,5 +1,6 @@
 package com.yeon.ho.used.domain.image;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.yeon.ho.used.domain.user.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -27,6 +28,7 @@ public class Image {
     private String message;
     @ManyToOne
     @JoinColumn(name = "userId")
+    @JsonIgnoreProperties({"password"}) // user 안의 password
     private User user;
 
     private LocalDateTime createDate;

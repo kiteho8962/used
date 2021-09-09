@@ -44,9 +44,9 @@ public class ImageServiceImpl implements ImageService{
     }
 
     @Override
-    public Image getImages(Pageable pageable) {
+    public Page<Image> getImages(Pageable pageable) {
         Page<Image> images = imageRepository.findAll(pageable);
 
-        return (Image) images;
+        return images;
     }
 }
