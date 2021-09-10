@@ -52,6 +52,8 @@
 Essential Scripts
 =====================================-->
 
+
+
 <!-- Main jQuery -->
 <script src="/plugins/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap 3.1 -->
@@ -76,7 +78,6 @@ Essential Scripts
 <!-- Main Js File -->
 <script src="/js/script.js"></script>
 <script src="/js/shop.js" ></script>
-
 
 
 </body>
