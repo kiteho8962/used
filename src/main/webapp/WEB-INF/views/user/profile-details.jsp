@@ -31,8 +31,13 @@
         <div class="dashboard-wrapper dashboard-user-profile">
           <div class="media">
             <div class="pull-left text-center" href="#!">
-              <img class="media-object user-img" src="/images/avater.jpg" alt="Image">
-              <a href="#x" class="btn btn-transparent mt-20">Change Image</a>
+                <form action="">
+                  <img class="media-object user-img" id="imageUploadPreview" src="/images/avater.jpg" alt="Image">
+                  <label for="fileUpload" class="btn btn-transparent mt-20">Change Image</label>
+                    <div id="imageBigWrapper" class="form-group">
+                        <input id="fileUpload" type="file" name="file" onchange="imageChoose(this)" style="display: none">
+                    </div>
+                </form>
             </div>
             <div class="media-body">
               <ul class="user-profile-list">
@@ -49,5 +54,5 @@
     </div>
   </div>
 </section>
-
+<script src="/js/upload.js" ></script>
 <%@ include file="../layout/footer.jsp"%>

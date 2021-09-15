@@ -67,7 +67,7 @@ function getImageItem(image) {
 \t\t\t        \t\t\t\t\t${image.message}
 \t\t\t        \t\t\t\t</p>
 \t\t\t        \t\t\t\t<a href="cart.jsp" class="btn btn-main">Add To Cart</a>
-\t\t\t        \t\t\t\t<a href="product-single.jsp" class="btn btn-transparent">View Product Details</a>
+\t\t\t        \t\t\t\t<a href="/pages/product-single" class="btn btn-transparent">View Product Details</a>
 \t\t\t        \t\t\t</div>
 \t\t\t        \t\t</div>
 \t\t\t        \t</div>
