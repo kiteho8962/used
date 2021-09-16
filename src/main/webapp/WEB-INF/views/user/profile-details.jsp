@@ -31,11 +31,11 @@
         <div class="dashboard-wrapper dashboard-user-profile">
           <div class="media">
             <div class="pull-left text-center" href="#!">
-                <form action="">
-                  <img class="media-object user-img" id="imageUploadPreview" src="/images/avater.jpg" alt="Image">
+                <form id="userProfileForm" >
+                  <img class="media-object user-img"  id="imageUploadPreview" src="/upload/${principal.user.profileImageUrl}" alt="Image">
                   <label for="fileUpload" class="btn btn-transparent mt-20">Change Image</label>
                     <div id="imageBigWrapper" class="form-group">
-                        <input id="fileUpload" type="file" name="file" onchange="imageChoose(this)" style="display: none">
+                        <input id="fileUpload" type="file" name="profileImageFile" onchange="profileImageUpload(${principal.user.id}, this)" style="display: none">
                     </div>
                 </form>
             </div>

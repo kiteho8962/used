@@ -5,6 +5,7 @@ import com.yeon.ho.used.domain.user.User;
 import com.yeon.ho.used.service.auth.AuthService;
 import com.yeon.ho.used.web.dto.CMResponseDTO;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -15,6 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequiredArgsConstructor
+@Log4j2
 public class UserApiController {
 
     private final AuthService authService;
@@ -22,6 +24,8 @@ public class UserApiController {
     @PutMapping("/api/user/{principalId}/profileImageUrl")
     public ResponseEntity<?> profileImageUrlUpdate(@PathVariable int principalId, MultipartFile profileImageUrl,
                                                    @AuthenticationPrincipal PrincipalDetails principalDetails) {
+        log.info(principalId);
+        log.info(profileImageUrl);
         User userEntity = authService.updateImage(principalId, profileImageUrl);
         principalDetails.setUser(userEntity);
         return new ResponseEntity<>(new CMResponseDTO<>(1, "프로필 사진 변경 성공", null), HttpStatus.OK);
