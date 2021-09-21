@@ -40,7 +40,7 @@ function getImageItem(image) {
                 </div>
             </div>
             <div className="product-content">
-                <h4><a href="product-single.jsp">${image.title}</a></h4>
+                <h4><a href="/pages/product-single.jsp">${image.title}</a></h4>
                 <p className="price">${image.price}</p>
             </div>
         </div>
